@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* ------------------NAVBAR------------------- */
+.logo {
+  font-family: "Potta One";
+  color: rgb(181, 100, 7) !important;
+}
+.logo .logo-img {
+  border-radius: 50%;
+  border-left: 2px solid rgb(181, 100, 7);
+  border-bottom: 2px solid rgb(181, 100, 7);
+  border-top: 2px solid rgb(181, 100, 7);
+}
+/* -----------------HERO-SECTION--------------- */
+.hero {
+  height: 80vh;
+  position: relative;
+}
+.carousel-component {
+  height: 33.5rem !important;
+}
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.625rem;
+}
+.item {
+}
+.carousel-item-img {
+  object-fit: contain;
+}
+/* ...............WELCOME PART-------------------- */
+.text {
+  color: #969d9a !important;
+  font-size: 0.875rem !important;
+}
+.welcome-h3 {
+  color: #969d9a !important;
+}
+.welcome-container {
+  background: url(./assets/Images/welcome-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.welcome-container p {
+  width: 70%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+/* ------------------SERVICE-SECTION */
+.service-h2 {
+  margin-bottom: 30px;
+  color: #1c2647 !important;
+  font-size: 1.5rem !important;
+  font-family: "Potta One" !important;
+}
+.custom-color {
+  color: #1c2647;
+}
+.custom-font {
+  color: #1c2647 !important;
+  font-size: 1.4rem !important;
+  font-family: "Potta" !important;
+  font-weight: 500;
+}
+/* ----------------OUR-PASTORS--------------- */
