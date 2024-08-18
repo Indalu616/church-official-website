@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
@@ -6,8 +7,12 @@ import OurPastor from "./components/OurPastor";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Welcome from "./components/Welcome";
+import AOS from "aos";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  });
   return (
     <div className="App">
       <header>

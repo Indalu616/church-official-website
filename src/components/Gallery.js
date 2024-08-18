@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Gallerylist } from "./GalleryList";
+import AOS from "aos";
 function Gallery() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  });
   return (
-    <section className="py-5" style={{ backgroundColor: "#F9F7F5" }} id="gallery">
+    <section
+      className="py-5"
+      style={{ backgroundColor: "#F9F7F5" }}
+      id="gallery"
+    >
       <h2 className="text-center mb-4">Our Gallery</h2>
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row">
           {Gallerylist.map((item) => {
             return (

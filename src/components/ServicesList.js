@@ -32,7 +32,7 @@ export const ServicesList = [
     title: "Weddings",
     url: wed,
     description:
-      "You can easily make one of the life’s most memorable moments fully unforgettable by hosting a wedding at Farite church.",
+      "You can easily make one of the life’s most memorable moments fully unforgettable by hosting a wedding at Living water church.",
   },
   {
     id: 5,

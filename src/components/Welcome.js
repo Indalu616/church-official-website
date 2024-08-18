@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import pastor from "../assets/Images/pastor.png";
 import { WorshipList } from "./WorshipList";
+import AOS from "aos";
 function Welcome() {
+  useEffect(() => {
+    AOS.init({ duation: 3000 });
+  });
   return (
     <section className="mt-5" id="about">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="zoom-in">
             <h2 className="welcome-h2">Welcome! We love God!</h2>
             <h3 className="welcome-h3">
               We aim to express our love of Jesus Christ by living the will of
@@ -29,7 +33,9 @@ function Welcome() {
             <img
               src={pastor}
               alt="pastor..."
-              className="img-fluid rounded"></img>
+              className="img-fluid rounded"
+              data-aos="zoom-in"
+            ></img>
           </div>
         </div>
       </div>

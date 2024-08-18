@@ -14,7 +14,7 @@ export const WorshipList = [
     id: 2,
     url: counsel,
     description:
-      "Counseling at Farite offers both biblical guidance and professional counseling. The services are offered by pastors or Master's level counseling interns.",
+      "Counseling at Living water church offers both biblical guidance and professional counseling. The services are offered by pastors or Master's level counseling interns.",
     title: "Counseling",
   },
   {

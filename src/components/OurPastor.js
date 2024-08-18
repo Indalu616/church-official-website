@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PastorsList } from "./PastorsList";
+import AOS  from "aos";
 function OurPastor() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  });
   return (
     <section className="py-5">
       <h2 className="text-center mb-5 service-h2">Our Pastors</h2>
-      <div className="container">
+      <div className="container" data-aos="zoom-in">
         <div className="row">
           {PastorsList.map((pastor) => {
             return (

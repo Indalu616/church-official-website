@@ -23,21 +23,22 @@ function Footer() {
               <div className="col-3"></div>
               <div className="col-9">
                 <p className="footer-p">
-                  <i class="fa-solid fa-location-dot me-2"></i> 2130 Fulton
-                  Street
+                  <i class="fa-solid fa-location-dot me-2"></i>airport road
+                  behind immigration authority17th street
                 </p>
-                <p className="footer-p">San Diego, CA 94117-1080 USA</p>
+                <p className="footer-p">Abu Dhabi, United Arab Emirates</p>
                 <p className="footer-p">
-                  <i class="fa-solid fa-phone me-2"></i> 1-800-1234-678
+                  <i class="fa-solid fa-phone me-2"></i> 056 440 8355
                 </p>
                 <p className="footer-p">
-                  <i class="fa-solid fa-envelope me-2"></i> info@demolink.org
+                  <i class="fa-solid fa-envelope me-2"></i>
+                  livingwateremirates@gmail.com
                 </p>
               </div>
             </div>
           </div>
           <div className=" col-sm-6 col-md-4 ">
-            <h2 className="footer-h2">Newsletter</h2>
+            <h2 className="footer-h2">News letter</h2>
             <p className="footer-p footer-info-p">
               Sign up to our newsletter and be the first to know about the
               latest news, updates, and activities available at our church.
