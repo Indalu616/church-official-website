@@ -7,15 +7,10 @@
 }
 
 /* ------------------NAVBAR------------------- */
-.logo {
-  font-family: "Potta One";
-  color: rgb(181, 100, 7) !important;
+.menu-icon{
+  /* color: white !important; */
 }
 .logo .logo-img {
-  border-radius: 50%;
-  border-left: 2px solid rgb(181, 100, 7);
-  border-bottom: 2px solid rgb(181, 100, 7);
-  border-top: 2px solid rgb(181, 100, 7);
 }
 .link:hover {
   color: rgb(181, 100, 7) !important;
@@ -53,7 +48,8 @@ carousel-component {
   font-size: 1rem !important;
   font-weight: 700;
   /* font-family: "Poppins", sans-serif; */
-  color: rgb(191, 132, 5);
+  /* color: rgb(191, 132, 5); */
+  color: #e5f5e1;
 }
 .hero-h3 {
   font-size: 1rem;

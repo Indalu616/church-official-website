@@ -2,15 +2,15 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from '../assets/Images/logo-1.ico'
+import logo from '../assets/Images/church-logo.png'
 function AppNav() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary shadow">
+    <Navbar expand="lg" className="bg-body-tertiary shadow text-white">
       <Container>
         <Navbar.Brand href="#home" className="logo">
-          <img src={logo} alt="logo..." style={{width:"60px"} } className="logo-img"></img>Living water Church
+          <img src={logo} alt="logo..." style={{width:"80px"} } className="logo-img"></img>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu-icon" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className="link">Home</Nav.Link>

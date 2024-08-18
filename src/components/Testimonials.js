@@ -7,7 +7,7 @@ function Testimonials() {
       <h2 className="text-center mb-5" style={{ color: "#1C2647" }}>
         Testimonials
       </h2>
-      <Carousel indicators="false">
+      <Carousel indicators={false} controls={false}>
         {TestimonialList.map((testmony) => {
           return (
             <Carousel.Item key={testmony.id} className="pb-4">

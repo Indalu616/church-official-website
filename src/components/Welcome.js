@@ -29,8 +29,7 @@ function Welcome() {
             <img
               src={pastor}
               alt="pastor..."
-              className="img-fluid rounded"
-            ></img>
+              className="img-fluid rounded"></img>
           </div>
         </div>
       </div>

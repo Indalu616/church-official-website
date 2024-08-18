@@ -4,7 +4,7 @@ import { HerosList } from "./HeroImages";
 function Hero() {
   return (
     <section className="hero">
-      <Carousel
+      <Carousel controls={false} indicators={false}
         style={{ height: "100%" }}
         slide="true"
         className="carousel-component"
