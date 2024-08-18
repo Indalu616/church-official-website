@@ -13,12 +13,12 @@ function AppNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Services</Nav.Link>
-            <Nav.Link href="#link">Blogs</Nav.Link>
-            <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="#link">Contacts</Nav.Link>
+            <Nav.Link href="#home" className="link">Home</Nav.Link>
+            <Nav.Link href="#about" className="link">About</Nav.Link>
+            <Nav.Link href="#services" className="link">Services</Nav.Link>
+            <Nav.Link href="#testimonials" className="link">Testimonials</Nav.Link>
+            <Nav.Link href="#gallery" className="link">Gallery</Nav.Link>
+            <Nav.Link href="#contacts" className="link">Contacts</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

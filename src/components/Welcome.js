@@ -3,24 +3,27 @@ import pastor from "../assets/Images/pastor.png";
 import { WorshipList } from "./WorshipList";
 function Welcome() {
   return (
-    <section className="mt-5">
+    <section className="mt-5" id="about">
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-md-6">
-            <h2>Welcome! We love God!</h2>
+            <h2 className="welcome-h2">Welcome! We love God!</h2>
             <h3 className="welcome-h3">
               We aim to express our love of Jesus Christ by living the will of
               the Father.
             </h3>
-            <p className="text">
+            <p className="text welcome-p">
               Our church is a perfect place for all local residents to come in
               with their families and join for a prayer and a newfound peace of
-              mind and soul. Farite is built on a core set of beliefs, in which
-              we have unity and on which we base our fundamental decisions.
+              mind and soul. Living water church is built on a core set of
+              beliefs, in which we have unity and on which we base our
+              fundamental decisions.
             </p>
-            <button className="btn btn-secondary text-white mb-4">
-              Learn more <i class="fa-solid fa-arrow-right"></i>
-            </button>
+            <div className="welcome-btn">
+              <button className="btn btn-secondary text-white mb-4">
+                Learn more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
           <div className="col-md-6">
             <img
@@ -39,14 +42,16 @@ function Welcome() {
           <div className="row">
             {WorshipList.map((worship) => {
               return (
-                <div className="col" key={worship.id}>
+                <div className="col-sm-6 col-md-4" key={worship.id}>
                   <div className="row">
-                    <div className="col-md-3">
-                      <img src={worship.url}></img>
+                    <div className="col-md-3 worship-img">
+                      <img src={worship.url} alt="worship..."></img>
                     </div>
                     <div className="col-md-9">
-                      <h3 className="custom-font">{worship.title}</h3>
-                      <p className="text">{worship.description}</p>
+                      <h3 className="custom-font worship-h3">
+                        {worship.title}
+                      </h3>
+                      <p className="text worship-p">{worship.description}</p>
                     </div>
                   </div>
                 </div>

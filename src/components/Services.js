@@ -2,7 +2,7 @@ import React from "react";
 import { ServicesList } from "./ServicesList";
 function Services() {
   return (
-    <section style={{ backgroundColor: "#F9F7F5" }} className="py-5">
+    <section style={{ backgroundColor: "#F9F7F5" }} className="py-5" id="services">
       <h2 className="text-center service-h2 mb-5 custom-color">Services</h2>
       <div className="container">
         <div className="row mt-5">

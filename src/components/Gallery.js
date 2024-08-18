@@ -2,7 +2,7 @@ import React from "react";
 import { Gallerylist } from "./GalleryList";
 function Gallery() {
   return (
-    <section className="py-5">
+    <section className="py-5" style={{ backgroundColor: "#F9F7F5" }} id="gallery">
       <h2 className="text-center mb-4">Our Gallery</h2>
       <div className="container">
         <div className="row">
@@ -21,8 +21,8 @@ function Gallery() {
                     }}
                   ></img>
                   <div className="info mt-4">
-                    <h3>{item.title}</h3>
-                    <p>{item.description}</p>
+                    <h3 className="custom-font">{item.title}</h3>
+                    <p className="text">{item.description}</p>
                     <button className="btn btn-secondary">+</button>
                   </div>
                 </div>
@@ -37,7 +37,9 @@ function Gallery() {
       <div className="container-fluid d-flex align-items-center justify-content-center bg-dark text-white p-5">
         <div className="row">
           <div className="col-md-9">
-            <h4 className="text-center">Experience God's unconditional grace and forgiveness.</h4>
+            <h4 className="text-center">
+              Experience God's unconditional grace and forgiveness.
+            </h4>
           </div>
           <div className="col-md-3">
             <div className="text-center">
