@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/church-official-website/static/css/main.9da7ba3c.css",
-    "main.js": "/church-official-website/static/js/main.218c1c94.js",
+    "main.css": "/church-official-website/static/css/main.168e6774.css",
+    "main.js": "/church-official-website/static/js/main.49a9b78c.js",
     "static/js/453.7930c690.chunk.js": "/church-official-website/static/js/453.7930c690.chunk.js",
     "static/media/welcome-bg.jpeg": "/church-official-website/static/media/welcome-bg.fcb77797a73dc2fbc4d5.jpeg",
     "static/media/hero-bg-2.jpeg": "/church-official-website/static/media/hero-bg-2.a8b3c890102702a7088f.jpeg",
@@ -16,9 +16,9 @@
     "static/media/jay.jpeg": "/church-official-website/static/media/jay.2cddeac04d053b78daa7.jpeg",
     "static/media/gallery-1.jpeg": "/church-official-website/static/media/gallery-1.2088f292a51df3d80c8b.jpeg",
     "static/media/cody.jpeg": "/church-official-website/static/media/cody.373c4d890121730fc401.jpeg",
+    "static/media/church-logo.png": "/church-official-website/static/media/church-logo.bb9e26afba88cfe6c5bf.png",
     "static/media/albert.png": "/church-official-website/static/media/albert.104b9654e6da1cbc6405.png",
     "static/media/jacob.png": "/church-official-website/static/media/jacob.ee3ad2ff9a5fe96d5b82.png",
-    "static/media/logo-1.ico": "/church-official-website/static/media/logo-1.88ac58fb27a946262370.ico",
     "static/media/baptise.svg": "/church-official-website/static/media/baptise.145d80dcd4e5068328bfe3fd2e609555.svg",
     "static/media/worship-icon.svg": "/church-official-website/static/media/worship-icon.a9591c38da2132c8e024d9c4fe10c40e.svg",
     "static/media/wedding.svg": "/church-official-website/static/media/wedding.51b44b4e2830603034b688cd107915dd.svg",
@@ -29,12 +29,12 @@
     "static/media/funeral.svg": "/church-official-website/static/media/funeral.b1dfc64416bdc6b52c9390fc27ac1857.svg",
     "static/media/exhortation.svg": "/church-official-website/static/media/exhortation.f00f8c66bc9ff367b97b40508de736c9.svg",
     "index.html": "/church-official-website/index.html",
-    "main.9da7ba3c.css.map": "/church-official-website/static/css/main.9da7ba3c.css.map",
-    "main.218c1c94.js.map": "/church-official-website/static/js/main.218c1c94.js.map",
+    "main.168e6774.css.map": "/church-official-website/static/css/main.168e6774.css.map",
+    "main.49a9b78c.js.map": "/church-official-website/static/js/main.49a9b78c.js.map",
     "453.7930c690.chunk.js.map": "/church-official-website/static/js/453.7930c690.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9da7ba3c.css",
-    "static/js/main.218c1c94.js"
+    "static/css/main.168e6774.css",
+    "static/js/main.49a9b78c.js"
   ]
 }
