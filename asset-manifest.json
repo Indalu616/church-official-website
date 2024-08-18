@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/church-official-website/static/css/main.4ce02a23.css",
-    "main.js": "/church-official-website/static/js/main.c2c97783.js",
+    "main.css": "/church-official-website/static/css/main.9da7ba3c.css",
+    "main.js": "/church-official-website/static/js/main.218c1c94.js",
     "static/js/453.7930c690.chunk.js": "/church-official-website/static/js/453.7930c690.chunk.js",
     "static/media/welcome-bg.jpeg": "/church-official-website/static/media/welcome-bg.fcb77797a73dc2fbc4d5.jpeg",
     "static/media/hero-bg-2.jpeg": "/church-official-website/static/media/hero-bg-2.a8b3c890102702a7088f.jpeg",
@@ -29,12 +29,12 @@
     "static/media/funeral.svg": "/church-official-website/static/media/funeral.b1dfc64416bdc6b52c9390fc27ac1857.svg",
     "static/media/exhortation.svg": "/church-official-website/static/media/exhortation.f00f8c66bc9ff367b97b40508de736c9.svg",
     "index.html": "/church-official-website/index.html",
-    "main.4ce02a23.css.map": "/church-official-website/static/css/main.4ce02a23.css.map",
-    "main.c2c97783.js.map": "/church-official-website/static/js/main.c2c97783.js.map",
+    "main.9da7ba3c.css.map": "/church-official-website/static/css/main.9da7ba3c.css.map",
+    "main.218c1c94.js.map": "/church-official-website/static/js/main.218c1c94.js.map",
     "453.7930c690.chunk.js.map": "/church-official-website/static/js/453.7930c690.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce02a23.css",
-    "static/js/main.c2c97783.js"
+    "static/css/main.9da7ba3c.css",
+    "static/js/main.218c1c94.js"
   ]
 }
