@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Welcome from "./components/Welcome";
 import AOS from "aos";
+import Schedule from "./components/Schedule";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <header>
         <AppNav />
         <Hero />
+        <Schedule />
       </header>
       <main>
         <Welcome />

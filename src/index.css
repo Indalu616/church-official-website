@@ -7,7 +7,7 @@
 }
 
 /* ------------------NAVBAR------------------- */
-.menu-icon{
+.menu-icon {
   /* color: white !important; */
 }
 .logo .logo-img {
@@ -63,6 +63,21 @@ carousel-component {
 }
 .item {
   position: relative;
+}
+
+/* ------------SCHEDULE PART--------------- */
+.schedule-holder {
+  position: relative;
+}
+.schedule-h2 {
+  position: absolute;
+  top: -15%;
+  right: 20%;
+  left: 20%;
+  /* background-color: red; */
+}
+.text-red {
+  color: rgb(198, 124, 5) !important;
 }
 
 /* ...............WELCOME PART-------------------- */
